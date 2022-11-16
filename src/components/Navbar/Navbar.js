@@ -9,7 +9,7 @@ import { FaUser, FaFolderOpen } from 'react-icons/fa';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
-
+import AccountCircle from '@material-ui/icons/AccountCircleOutlined'
 import './Navbar.css';
 import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
@@ -280,6 +280,22 @@ function Navbar() {
                                     <MdPhone className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
                                         Contact
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/admin'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <AccountCircle className={classes.drawerIcon} />
+                                    <span className={classes.drawerLinks}>
+                                        Admin
                                     </span>
                                 </div>
                             </NavLink>

@@ -131,7 +131,9 @@ function Contacts() {
 
     const handleContactForm = (e) => {
         e.preventDefault();
-
+        console.log(name)
+        console.log(email)
+        console.log(message)
         if (name && email && message) {
             if (isEmail(email)) {
                 const responseData = {
@@ -169,7 +171,7 @@ function Contacts() {
             <div className='contacts--container'>
                 <h1 style={{ color: theme.primary }}>Contacts</h1>
                 <div className='contacts-body'>
-                    {/* <div className='contacts-form'>
+                    <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
@@ -278,7 +280,7 @@ function Contacts() {
                                 message={errMsg}
                             />
                         </Snackbar>
-                    </div> */}
+                    </div>
 
                     <div className='contacts-details'>
                         <a
