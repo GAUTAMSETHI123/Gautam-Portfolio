@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import { ThemeContext } from './contexts/ThemeContext';
 import { Main, BlogPage, ProjectPage } from './pages'
 import { BackToTop } from './components'
+import Login from './components/AdminLogin/Login'
 import ScrollToTop from './utils/ScrollToTop'
 
 import './App.css'
@@ -24,7 +25,7 @@ function App() {
           <Route path="/" exact component={Main} />
           <Route path="/blog" exact component={BlogPage} />
           <Route path="/projects" exact component={ProjectPage} />
-
+          <Route path="/account" exact component={Login}/>
           <Redirect to="/" />
         </Switch>
       </Router>

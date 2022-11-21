@@ -287,7 +287,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/admin'
+                                to='/account'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}

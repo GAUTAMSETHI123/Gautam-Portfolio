@@ -3,10 +3,12 @@
     'Javascript',
     'CSS',
     'React',
-    'Django',
+    'Java',
     'MongoDB',
     'MySQL',
-    'Python'
+    'Python',
+    'Kotlin',
+    'Node JS'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
