@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: portfolio-docker
+    image: portfolio-docker-1
+    build:
+      context: .
+    ports:
+      - 3000:80

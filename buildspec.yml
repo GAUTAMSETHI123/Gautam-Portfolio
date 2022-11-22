@@ -1,17 +1,5 @@
 version: 0.2
 phases:
-  install:
-    runtime-versions:
-      nodejs: 16
-  pre_build:
-    commands:
-      - echo Installing NPM dependencies
-      - npm install --force
   build:
     commands:
-      - echo Build started on `date`
-      - npm run build
-artifacts:
-  files:
-    - '**/*'
-  name: jatin-$AWS_REGION 
+        - docker-compose up -d
