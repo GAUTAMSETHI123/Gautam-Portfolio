@@ -285,7 +285,7 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/account'
                                 smooth={true}
@@ -296,6 +296,23 @@ function Navbar() {
                                     <AccountCircle className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
                                         Admin
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade> */}
+                        <Fade left>
+                            <NavLink
+                                to='/#services'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <BsFillGearFill
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Services
                                     </span>
                                 </div>
                             </NavLink>

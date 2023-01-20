@@ -40,7 +40,7 @@ function Testimonials() {
 
     return (
         <>
-            {testimonialsData.length > 0 && (
+            {testimonialsData.length >  0 && (
                 <div
                     className='testimonials'
                     style={{ backgroundColor: theme.primary }}
@@ -92,7 +92,9 @@ function Testimonials() {
                                     </div>
                                 ))}
                             </Slider>
-                            <button
+                            {testimonialsData.length > 1 &&(
+                                <>
+                                <button
                                 className='prevBtn'
                                 onClick={gotoPrev}
                                 style={{ backgroundColor: theme.secondary }}
@@ -112,6 +114,8 @@ function Testimonials() {
                                     aria-label='Next testimonial'
                                 />
                             </button>
+                                </>
+                            )}
                         </div>
                     </div>
                 </div>

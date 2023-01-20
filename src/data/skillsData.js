@@ -1,14 +1,15 @@
  export const skillsData = [
-    'HTML',
     'Javascript',
-    'CSS',
     'React',
     'Java',
     'MongoDB',
     'MySQL',
-    'Python',
     'Kotlin',
-    'Node JS'
+    'Node Js',
+    'AWS',
+    'Django',
+    'Python',
+    'Android',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
