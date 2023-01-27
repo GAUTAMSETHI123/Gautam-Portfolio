@@ -8,14 +8,14 @@ export const educationData = [
     },
     {
         id: 2,
-        institution: 'Rajdhani Public School, New Delhi',
+        institution: 'St.Clares Sr. Sec. School, Agra',
         course: 'Intermediate',
         startYear: '2017',
         endYear: '2019'
     },
     {
         id: 3,
-        institution: 'Rajdhani Public School, New Delhi',
+        institution: 'St.Clares Sr. Sec. School, Agra',
         course: 'High School',
         startYear: '2015',
         endYear: '2017'
