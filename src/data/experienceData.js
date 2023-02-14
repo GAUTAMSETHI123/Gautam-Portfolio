@@ -1,17 +1,24 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Able',
-        jobtitle: 'Full Stack Developer',
+        company: 'Benthon Labs (formerly Colaborar Labs)',
+        jobtitle: 'DevOps Engineer',
         startYear: 'Sept 2022',
         endYear: 'Dec 2022'
     },
     {
         id: 2,
-        company: 'Dzentra Pvt Ltd',
-        jobtitle: 'Software Developer',
-        startYear: 'Apr 2022',
-        endYear: 'Jun 2022'
+        company: 'Hacknation',
+        jobtitle: 'Cloud Mentor',
+        startYear: 'Dec 2021',
+        endYear: 'Apr 2022'
+    },
+    {
+        id: 3,
+        company: 'Heptism Pvt Ltd',
+        jobtitle: 'Web Developer',
+        startYear: 'May 2020',
+        endYear: 'July 2020'
     },
     
 ]

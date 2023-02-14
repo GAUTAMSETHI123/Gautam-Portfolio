@@ -11,9 +11,9 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Social Media Web Application',
-        projectDesc: 'Developed an Application where multiple users can post social content to and fro.',
-        tags: ['React.js', 'MongoDB','Node.js', 'Express.js', 'Redux'],
+        projectName: 'Automated CI/CD pipeline',
+        projectDesc: 'Developed CI/CD pipeline using Jenkins',
+        tags: ['Jenkins','Node.js', 'Express.js', 'Redux'],
         code: 'https://github.com/devXjatin/sociobook',
         demo: 'https://sociobook.netlify.app/',
         image: 'https://jatin-portfolio-bucket.s3.ap-south-1.amazonaws.com/sociobook.png'
@@ -23,7 +23,7 @@ export const projectsData = [
         projectName: 'Sorting Visualizer',
         projectDesc: 'This is a Web Application which is built to visualize Sorting Algorithm. Application Supports Bubble, Selection, Insertion, Quick and Merge Sort.',
         tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/devXjatin/sorting-visualizer',
+        code: 'https://github.com/GAUTAMSETHI123/Sorting_Visualizer',
         demo: 'https://visualizer-sorting-algo.netlify.app/',
         image: "https://jatin-portfolio-bucket.s3.ap-south-1.amazonaws.com/sorting.png"
     },
